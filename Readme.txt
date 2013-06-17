@@ -15,3 +15,5 @@ Well, if you happen to reuse something it would be nice to give me a little cred
 Also a little side note here:
 I removed everything that was contained in the Leap SDK because I am not sure if I am allowed to share it.
 Just throw in the stuff from your SDK copy and it is ready to go^^
+
+Oh yes, and if you have constructive criticism do not hesitate to tell me. I am not a professional programmer but I am always open for anything that makes me a better one :3
