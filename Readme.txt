@@ -7,7 +7,6 @@ In line 166 in the main.cpp you can change the sensitivity of the mouse movement
 In line 4 - 6 in the main.cpp you can comment those out to disable certain controls (mouse movement, mouseclicks, hand open/close)
 In line 50 and 51 in the LeapListener.h you can change the heights of both left and right click
 
-It may also be possible to make the code more efficient using bitmasks and such but this suffices^^
 
 Well, if you happen to reuse something it would be nice to give me a little bit of credit, thanks in advance :)
 
