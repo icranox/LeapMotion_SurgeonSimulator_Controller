@@ -8,7 +8,7 @@ In line 4 - 6 in the main.cpp you can comment those out to disable certain contr
 In line 50 and 51 in the LeapListener.h you can change the heights of both left and right click
 
 
-Well, if you happen to reuse something it would be nice to give me a little credit, thanks in advance :)
+Well, if you happen to reuse some of my code it would be nice to give me a little credit, thanks in advance :)
 
 - Tom Collins "Icranox" 
 
