@@ -3,9 +3,10 @@ Thanks for reading this readme :D
 This is my second Surgeon Simulator Leap controller. The first one was kind of an abomination (and I probably don't have it anymore - I cannot find it at least) but this one turned out quite nice ;)
 This program could be modified to work with other games as well... forget what I said, it would probably lead to a complete rewrite x3
 But you are able to tweak the program by modifying certain values.
-In line 166 in the main.cpp you can change the sensitivity of the mouse movements
-In line 4 - 6 in the main.cpp you can comment those out to disable certain controls (mouse movement, mouseclicks, hand open/close)
-In line 50 and 51 in the LeapListener.h you can change the heights of both left and right click
+In main.cpp at #define SENSITIVITY X you can change the value X to suit your needs
+In main.cpp you can comment out #define ENABLE_MOUSECLICK, #define ENABLE_MOUSEMOVE and #define ENABLE_OPEN_CLOSE_HAND to disable certain controls (mouse movement, mouseclicks, hand open/close)
+In LeapListener.h you can change the heights of both left and right click at #define HEIGHT_LEFTCLICK	X and #define HEIGHT_RIGHTCLICK	Y
+
 
 
 Well, if you happen to reuse some of my code it would be nice to give me a little credit, thanks in advance :)
