@@ -1,9 +1,12 @@
 #include"Leap.h"
 #include"LeapMath.h"
-#pragma comment(lib, "Source\\leap.lib")
+#pragma comment(lib, "leap.lib")
 using namespace Leap;
 
-
+//height of left click, default 200.0
+#define HEIGHT_LEFTCLICK	200.0
+//height of right click, default 400.0
+#define HEIGHT_RIGHTCLICK	400.0
 
 /*
 Leap device coordinates
@@ -47,8 +50,8 @@ private:
 
 void LeapListener::onInit(const Controller& controller) {
 	handPosition = Vector();
-	leftHeight = 200.0;
-	rightHeight = 400.0;
+	leftHeight = HEIGHT_LEFTCLICK;
+	rightHeight = HEIGHT_RIGHTCLICK;
 	noHand = true;
 	handOpen = true;
 	leftClick = false;
