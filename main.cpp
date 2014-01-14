@@ -1,9 +1,14 @@
 #include<Windows.h>
 #include"LeapListener.h"
 
+//uncomment to disable certain control aspects
 #define ENABLE_MOUSECLICK
 #define ENABLE_MOUSEMOVE
 #define ENABLE_OPEN_CLOSE_HAND
+//sensitivity value, default 18.0
+//if it is too or not sensitive enough, you will have to experiment with that setting
+#define SENSITIVITY 18.0		
+
 
 int main()
 {
@@ -164,7 +169,7 @@ int main()
 	Leap::Vector lastHandPos = Leap::Vector();
 	Leap::Vector mouseMovement = Leap::Vector();
 
-	float sensitivity = 18.0; //sensitivity setting :3
+	float sensitivity = SENSITIVITY; //sensitivity setting :3
 
 	//program will terminate automatically, when
 	//a. Surgeon Simulator is closed
@@ -233,6 +238,8 @@ int main()
 			}
 #endif
 		}
+		//maybe it needs some sleep?
+		//Sleep(20);
 	}
 
 	if (leapListener.leftClick) {
