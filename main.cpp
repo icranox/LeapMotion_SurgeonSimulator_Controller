@@ -155,7 +155,8 @@ int main()
 	//Classname and Window name found with WinSpy, check out http://www.catch22.net/software
 	//Look for an open/a running instance of Surgeon Simulator
 	//And return the handle to me, so I can use it to send input
-	surgeonWindow = FindWindow(L"UnityWndClass", L"Surgeon Simulator 2013");
+	//surgeonWindow = FindWindow(L"UnityWndClass", L"Surgeon Simulator 2013");
+	surgeonWindow = FindWindow(TEXT("UnityWndClass"), TEXT("Surgeon Simulator 2013"));
 	ShowWindow(surgeonWindow, SW_MAXIMIZE);
 	SetForegroundWindow(surgeonWindow);
 
