@@ -1,0 +1,7 @@
+Instructions:
+Before you start the application, your Leap must be plugged in and working ;)
+Run Surgeon Simulator until you are at the desk (main menu). Press escape to pause the game,
+then Alt+tab. Now run the LeapMotion_SurgeonSimulator.exe, the program should maximize Surgeon Simulator again.
+It is advised that you resume the game first before starting to use your hand, also note that with the current
+settings it is probably very uncomfortable to play... I might make it configurable on one of these days.
+Also note the program quits if Surgeon Simulator loses the main focus.
