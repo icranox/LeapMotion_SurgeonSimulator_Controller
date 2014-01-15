@@ -5,7 +5,7 @@ This program could be modified to work with other games as well... forget what I
 But you are able to tweak the program by modifying certain values.
 In main.cpp at #define SENSITIVITY X you can change the value X to suit your needs
 In main.cpp you can comment out #define ENABLE_MOUSECLICK, #define ENABLE_MOUSEMOVE and #define ENABLE_OPEN_CLOSE_HAND to disable certain controls (mouse movement, mouseclicks, hand open/close)
-In LeapListener.h you can change the heights of both left and right click at #define HEIGHT_LEFTCLICK	X and #define HEIGHT_RIGHTCLICK	Y
+In LeapListener.h you can change the heights of both left and right click at #define HEIGHT_LEFTCLICK X and #define HEIGHT_RIGHTCLICK Y
 
 
 
